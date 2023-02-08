@@ -25,7 +25,6 @@ document.body.appendChild(doorBtn)
 
 /* ------------------------------------------------------------------------------------- */
 
-
 /* Style of output page! */
 let styleDoorsPage = `<style>
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
@@ -64,7 +63,7 @@ function doorsClick() {
 	
 	/* Give out the html. */
 	var w = window.open("")
-    w.document.write(`<h3>This terminal is now seized by ash. Here you go, traverse freely~ ^^</h3>\n${linkDB}`)
+    	w.document.write(`<h3>This terminal is now seized by ash. Here you go, traverse freely~ ^^</h3>\n${linkDB}`)
     
 }
 

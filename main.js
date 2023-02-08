@@ -9,8 +9,7 @@ doorBtn = document.createElement("button")
 
 /* Now we simply change its id so we can refer to it by css and html means. */
 doorBtn.setAttribute("id", "doorBtn")
-doorBtn.innerHTML = "Find all paths~"
-
+doorBtn.innerHTML = "Unveil~"
 
 /* Style the button. */
 doorBtn.style = `
@@ -18,6 +17,7 @@ doorBtn.style = `
 	left:1px; top:1px;
 	background-color:#d2738a; color:#010101;
 	padding:10px; margin:10px;
+	z-index: 2147483647;
 `
 
 /* We add such to the body itself. */
